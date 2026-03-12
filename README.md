@@ -2,6 +2,7 @@
 
 A full-stack web application designed to identify, analyze, and visualize anomalous (potentially fraudulent) transactions in datasets using machine learning clustering algorithms.
 
+### 🌐 See in Action
 [![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://fraud-detection-pipeline-i0yp.onrender.com)
 
 A full-stack web application designed to identify anomalous transactions using ML.
