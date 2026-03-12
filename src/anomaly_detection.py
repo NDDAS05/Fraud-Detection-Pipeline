@@ -25,8 +25,6 @@ def run_dbscan(df, eps=0.5, min_samples=5):
         logger.error(f"Dataset too large for DBSCAN ({len(df)} rows). Max recommended is 100,000.")
         raise ValueError(f"Dataset too large for DBSCAN ({len(df)} rows). Please use Isolation Forest or K-Means for datasets over 100,000 rows, or upload a smaller sample.")
 
-    # If eps is the default 0.5, it's likely too small for high-dimensional data.
-    # We can dynamically estimate a better eps using the k-distance graph heuristic.
     if eps == 0.5:
         logger.info("Default eps=0.5 detected. Estimating optimal eps for high-dimensional data...")
         # Use a sample to speed up the estimation
@@ -52,7 +50,6 @@ def run_dbscan(df, eps=0.5, min_samples=5):
 
 def run_isolation_forest(df, contamination=0.01):
     logger.info(f"Running Isolation Forest with contamination={contamination}...")
-    # Using n_jobs=None (single core) to avoid multiprocessing overhead in containerized environments
     model = IsolationForest(contamination=contamination, random_state=42, n_jobs=None)
     labels = model.fit_predict(df)
     is_anomaly = (labels == -1).astype(int)
