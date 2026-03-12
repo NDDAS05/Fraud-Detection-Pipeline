@@ -103,4 +103,4 @@ python3 src/main.py --input path/to/your/dataset.csv --output path/to/output_dir
 ## 👨‍💻 Author
 
 **Nirupam Das**
-* **Institution**: Indian Institute of Engineering Science and Technology
+* **Institution**: Indian Institute of Engineering Science and Technology, Shibpur
