@@ -2,6 +2,10 @@
 
 A full-stack web application designed to identify, analyze, and visualize anomalous (potentially fraudulent) transactions in datasets using machine learning clustering algorithms.
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://fraud-detection-pipeline-i0yp.onrender.com)
+
+A full-stack web application designed to identify anomalous transactions using ML.
+
 ## 🎯 Objective
 The primary objective is to provide an **automated, no-code Machine Learning pipeline** that identifies fraudulent or anomalous transactions in raw tabular data. Instead of requiring a data scientist to manually clean data, write scripts, and train models, this application automates the entire lifecycle—from data ingestion and preprocessing to model execution and result visualization—accessible through a simple web interface.
 
