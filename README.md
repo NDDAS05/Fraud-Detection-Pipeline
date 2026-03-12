@@ -37,7 +37,7 @@ The primary objective is to provide an **automated, no-code Machine Learning pip
 * **Data Scientists (Rapid Prototyping):** Get a "baseline" understanding of anomalies and data distribution in seconds before spending weeks building complex supervised models.
 * **Small Businesses:** Periodically audit payment logs for suspicious activity, chargeback risks, or system glitches without needing a dedicated data science team.
 
-## 📊 How Analysts Use the Output
+## 📊 How Analysts Can Use the Output
 When an analyst downloads the processed CSV (containing normalized features and the `is_anomaly` flag), they can:
 * **Triage and Manual Review:** Filter for `is_anomaly == 1` to focus 100% of their investigation time on the most suspicious events.
 * **Understand "Why" via Normalized Scores:** Easily interpret the severity of an anomaly (e.g., a value of `4.5` in a standardized `Amount` column means it's 4.5 standard deviations higher than average).
