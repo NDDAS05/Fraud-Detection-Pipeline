@@ -104,5 +104,3 @@ python3 src/main.py --input path/to/your/dataset.csv --output path/to/output_dir
 
 **Nirupam Das**
 * **Institution**: Indian Institute of Engineering Science and Technology
-* **Year**: 2nd Year
-* **Enrollment Number**: 2024CSB108
