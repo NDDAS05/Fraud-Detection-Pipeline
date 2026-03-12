@@ -5,8 +5,28 @@ A full-stack web application designed to identify, analyze, and visualize anomal
 ## 🎯 Objective
 The primary objective is to provide an **automated, no-code Machine Learning pipeline** that identifies fraudulent or anomalous transactions in raw tabular data. Instead of requiring a data scientist to manually clean data, write scripts, and train models, this application automates the entire lifecycle—from data ingestion and preprocessing to model execution and result visualization—accessible through a simple web interface.
 
-## 💡 What It Demonstrates
-This project bridges the gap between Data Science and Software Engineering, demonstrating:
+## 📸 Application Preview
+
+### Web Interface
+
+<p align="center">
+  <img src="images/fraud_detection_pipeline_web1.png" width="45%">
+  <img src="images/fraud_detection_pipeline_web2.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="images/fraud_detection_pipeline_web3.png" width="45%">
+</p>
+
+### Command Line Interface
+
+<p align="center">
+  <img src="images/fraud_detection_pipeline_terminal1.png" width="45%">
+  <img src="images/fraud_detection_pipeline_terminal2.png" width="45%">
+</p>
+
+## 💡 What It Shows
+
 * **Full-Stack Architecture:** Connecting a modern React frontend to a Node.js backend that dynamically spawns and manages Python child processes.
 * **Applied Unsupervised Learning:** Implementing algorithms like **Isolation Forest**, **DBSCAN**, and **K-Means** to tackle real-world constraints where fraud datasets lack labels.
 * **Automated Data Engineering:** Automatically handling missing values, scaling numeric data, encoding categorical text, and dropping highly correlated features.
