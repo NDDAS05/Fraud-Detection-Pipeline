@@ -30,7 +30,7 @@ def main():
     
     args = parser.parse_args()
     
-    logger.info("=== Starting Fraud Detection Pipeline ===")
+    logger.info("< Starting Fraud Detection Pipeline >")
     
     try:
         # 1. Ingestion
@@ -57,7 +57,7 @@ def main():
         elif args.method == 'dbscan':
             anomalies = run_dbscan(df_scaled, eps=args.eps, min_samples=args.min_samples)
         elif args.method == 'isolation_forest':
-            # 1% contamination is a standard starting point for fraud detection
+            # 1% contamination
             anomalies = run_isolation_forest(df_scaled, contamination=0.01)
             
         # Append results
@@ -70,7 +70,7 @@ def main():
         # 7. Export
         export_anomalies(df, output_dir=args.output)
         
-        logger.info("=== Pipeline Completed Successfully ===")
+        logger.info("< Pipeline Completed Successfully! >")
         
     except Exception as e:
         logger.exception(f"Pipeline failed: {e}")
