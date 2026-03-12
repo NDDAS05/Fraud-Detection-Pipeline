@@ -6,8 +6,6 @@ def validate_dataset(file_path):
     if not os.path.exists(file_path):
         logger.error(f"File not found: {file_path}")
         raise FileNotFoundError(f"File not found: {file_path}")
-    # Removed the strict .endswith('.csv') check because Node.js (multer) 
-    # saves temporary uploads without file extensions.
     return True
 
 def load_dataset(file_path):
