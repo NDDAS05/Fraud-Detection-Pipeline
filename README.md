@@ -3,6 +3,8 @@
 A full-stack web application designed to identify, analyze, and visualize anomalous (potentially fraudulent) transactions in datasets using machine learning clustering algorithms.
 
 ### 🌐 See in Action
+Click the button below:
+
 [![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://fraud-detection-pipeline-i0yp.onrender.com)
 
 A full-stack web application designed to identify anomalous transactions using ML.
@@ -37,7 +39,7 @@ The primary objective is to provide an **automated, no-code Machine Learning pip
 * **Automated Data Engineering:** Automatically handling missing values, scaling numeric data, encoding categorical text, and dropping highly correlated features.
 * **Performance & Scalability:** Utilizing efficient algorithms like Isolation Forest to process massive datasets (e.g., 284,000+ rows) quickly without memory crashes.
 
-## 🚀 Why Use It? (Real-World Use Cases)
+## 🚀 Why Use It?
 * **Risk & Compliance Teams (Non-Technical Users):** Upload a daily CSV of transactions and instantly get a downloadable list of the top 1% most suspicious transactions to manually investigate, without writing any code.
 * **Data Scientists (Rapid Prototyping):** Get a "baseline" understanding of anomalies and data distribution in seconds before spending weeks building complex supervised models.
 * **Small Businesses:** Periodically audit payment logs for suspicious activity, chargeback risks, or system glitches without needing a dedicated data science team.
